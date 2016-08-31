@@ -21,6 +21,6 @@
 .byebug_history
 
 # Ignore my pictures and personal files
-/public/assets
-/shared
-/assets/images
+/public/assets/*
+/shared/*
+/assets/images/*
