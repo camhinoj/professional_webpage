@@ -1,0 +1,177 @@
+I, [2016-08-30T13:09:16.978314 #21999]  INFO -- : Refreshing Gem list
+I, [2016-08-30T13:09:18.580885 #21999]  INFO -- : listening on addr=/home/deploy/professional_webpage/shared/sockets/unicorn.sock fd=12
+I, [2016-08-30T13:09:18.580998 #21999]  INFO -- : worker=0 spawning...
+I, [2016-08-30T13:09:18.582203 #21999]  INFO -- : worker=1 spawning...
+I, [2016-08-30T13:09:18.582893 #22002]  INFO -- : worker=0 spawned pid=22002
+I, [2016-08-30T13:09:18.583072 #22002]  INFO -- : worker=0 ready
+I, [2016-08-30T13:09:18.584365 #21999]  INFO -- : master process ready
+I, [2016-08-30T13:09:18.584897 #22005]  INFO -- : worker=1 spawned pid=22005
+I, [2016-08-30T13:09:18.585255 #22005]  INFO -- : worker=1 ready
+E, [2016-08-30T13:09:25.250240 #22005] ERROR -- : app error: Missing `secret_key_base` for 'production' environment, set this value in `config/secrets.yml` (RuntimeError)
+E, [2016-08-30T13:09:25.250367 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/application.rb:513:in `validate_secret_key_config!'
+E, [2016-08-30T13:09:25.250408 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/application.rb:246:in `env_config'
+E, [2016-08-30T13:09:25.250441 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/engine.rb:693:in `build_request'
+E, [2016-08-30T13:09:25.250472 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/application.rb:521:in `build_request'
+E, [2016-08-30T13:09:25.250504 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/engine.rb:521:in `call'
+E, [2016-08-30T13:09:25.250534 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2016-08-30T13:09:25.250565 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2016-08-30T13:09:25.250723 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2016-08-30T13:09:25.250762 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2016-08-30T13:09:25.250793 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+E, [2016-08-30T13:09:25.250824 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+E, [2016-08-30T13:09:25.250853 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+E, [2016-08-30T13:09:25.250882 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2016-08-30T13:09:25.250912 #22005] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-08-30T13:18:36.560328 #21999]  INFO -- : reaped #<Process::Status: pid 22002 exit 0> worker=0
+I, [2016-08-30T13:18:36.560442 #21999]  INFO -- : reaped #<Process::Status: pid 22005 exit 0> worker=1
+I, [2016-08-30T13:18:36.560524 #21999]  INFO -- : master complete
+I, [2016-08-30T13:19:33.777879 #22394]  INFO -- : Refreshing Gem list
+I, [2016-08-30T13:19:35.334759 #22394]  INFO -- : unlinking existing socket=/home/deploy/professional_webpage/shared/sockets/unicorn.sock
+I, [2016-08-30T13:19:35.334909 #22394]  INFO -- : listening on addr=/home/deploy/professional_webpage/shared/sockets/unicorn.sock fd=12
+I, [2016-08-30T13:19:35.334993 #22394]  INFO -- : worker=0 spawning...
+I, [2016-08-30T13:19:35.336386 #22394]  INFO -- : worker=1 spawning...
+I, [2016-08-30T13:19:35.336992 #22397]  INFO -- : worker=0 spawned pid=22397
+I, [2016-08-30T13:19:35.337149 #22397]  INFO -- : worker=0 ready
+I, [2016-08-30T13:19:35.338285 #22394]  INFO -- : master process ready
+I, [2016-08-30T13:19:35.338797 #22400]  INFO -- : worker=1 spawned pid=22400
+I, [2016-08-30T13:19:35.338957 #22400]  INFO -- : worker=1 ready
+E, [2016-08-30T13:19:40.394206 #22400] ERROR -- : app error: Missing `secret_key_base` for 'production' environment, set this value in `config/secrets.yml` (RuntimeError)
+E, [2016-08-30T13:19:40.394334 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/application.rb:513:in `validate_secret_key_config!'
+E, [2016-08-30T13:19:40.394379 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/application.rb:246:in `env_config'
+E, [2016-08-30T13:19:40.394543 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/engine.rb:693:in `build_request'
+E, [2016-08-30T13:19:40.394580 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/application.rb:521:in `build_request'
+E, [2016-08-30T13:19:40.394611 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/engine.rb:521:in `call'
+E, [2016-08-30T13:19:40.394642 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2016-08-30T13:19:40.394673 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2016-08-30T13:19:40.394704 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2016-08-30T13:19:40.394735 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2016-08-30T13:19:40.394766 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+E, [2016-08-30T13:19:40.394797 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+E, [2016-08-30T13:19:40.394826 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+E, [2016-08-30T13:19:40.394855 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2016-08-30T13:19:40.394896 #22400] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-08-30T13:28:21.836472 #22394]  INFO -- : reaped #<Process::Status: pid 22397 exit 0> worker=0
+I, [2016-08-30T13:28:21.836581 #22394]  INFO -- : reaped #<Process::Status: pid 22400 exit 0> worker=1
+I, [2016-08-30T13:28:21.836662 #22394]  INFO -- : master complete
+I, [2016-08-30T13:28:28.050333 #22607]  INFO -- : Refreshing Gem list
+I, [2016-08-30T13:28:29.641496 #22607]  INFO -- : unlinking existing socket=/home/deploy/professional_webpage/shared/sockets/unicorn.sock
+I, [2016-08-30T13:28:29.641653 #22607]  INFO -- : listening on addr=/home/deploy/professional_webpage/shared/sockets/unicorn.sock fd=12
+I, [2016-08-30T13:28:29.641739 #22607]  INFO -- : worker=0 spawning...
+I, [2016-08-30T13:28:29.643004 #22607]  INFO -- : worker=1 spawning...
+I, [2016-08-30T13:28:29.643832 #22610]  INFO -- : worker=0 spawned pid=22610
+I, [2016-08-30T13:28:29.643997 #22610]  INFO -- : worker=0 ready
+I, [2016-08-30T13:28:29.645099 #22607]  INFO -- : master process ready
+I, [2016-08-30T13:28:29.645603 #22613]  INFO -- : worker=1 spawned pid=22613
+I, [2016-08-30T13:28:29.645751 #22613]  INFO -- : worker=1 ready
+E, [2016-08-30T13:28:33.361032 #22610] ERROR -- : app error: "fe_sendauth: no password supplied\n" (PG::ConnectionBad)
+E, [2016-08-30T13:28:33.361117 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+E, [2016-08-30T13:28:33.361236 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+E, [2016-08-30T13:28:33.361265 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+E, [2016-08-30T13:28:33.361290 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+E, [2016-08-30T13:28:33.361314 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+E, [2016-08-30T13:28:33.361349 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+E, [2016-08-30T13:28:33.361492 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+E, [2016-08-30T13:28:33.361524 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+E, [2016-08-30T13:28:33.361550 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+E, [2016-08-30T13:28:33.361575 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+E, [2016-08-30T13:28:33.361600 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+E, [2016-08-30T13:28:33.361625 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+E, [2016-08-30T13:28:33.361650 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+E, [2016-08-30T13:28:33.361675 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+E, [2016-08-30T13:28:33.361701 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:91:in `connection'
+E, [2016-08-30T13:28:33.361726 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.0.1/lib/active_record/query_cache.rb:47:in `block in install_executor_hooks'
+E, [2016-08-30T13:28:33.361750 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `instance_exec'
+E, [2016-08-30T13:28:33.361775 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `block in make_lambda'
+E, [2016-08-30T13:28:33.361801 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+E, [2016-08-30T13:28:33.361826 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+E, [2016-08-30T13:28:33.361851 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `catch'
+E, [2016-08-30T13:28:33.361876 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `block in default_terminator'
+E, [2016-08-30T13:28:33.361901 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:170:in `block in halting'
+E, [2016-08-30T13:28:33.361926 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `block in call'
+E, [2016-08-30T13:28:33.361950 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `each'
+E, [2016-08-30T13:28:33.361976 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `call'
+E, [2016-08-30T13:28:33.362000 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+E, [2016-08-30T13:28:33.362124 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_complete_callbacks'
+E, [2016-08-30T13:28:33.362154 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+E, [2016-08-30T13:28:33.362179 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:107:in `complete!'
+E, [2016-08-30T13:28:33.362204 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `ensure in block in run!'
+E, [2016-08-30T13:28:33.362229 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `block in run!'
+E, [2016-08-30T13:28:33.362254 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `tap'
+E, [2016-08-30T13:28:33.362279 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `run!'
+E, [2016-08-30T13:28:33.362304 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:10:in `call'
+E, [2016-08-30T13:28:33.362328 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+E, [2016-08-30T13:28:33.362353 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+E, [2016-08-30T13:28:33.362378 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2016-08-30T13:28:33.362402 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2016-08-30T13:28:33.362427 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2016-08-30T13:28:33.362452 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2016-08-30T13:28:33.362476 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+E, [2016-08-30T13:28:33.362501 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `load'
+E, [2016-08-30T13:28:33.362525 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/unicorn:23:in `<main>'
+E, [2016-08-30T13:28:33.362548 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2016-08-30T13:28:33.362572 #22610] ERROR -- : /home/deploy/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-08-30T13:32:12.488303 #22607]  INFO -- : reaped #<Process::Status: pid 22610 exit 0> worker=0
+I, [2016-08-30T13:32:12.488414 #22607]  INFO -- : reaped #<Process::Status: pid 22613 exit 0> worker=1
+I, [2016-08-30T13:32:12.488496 #22607]  INFO -- : master complete
+I, [2016-08-30T13:32:17.138845 #22837]  INFO -- : Refreshing Gem list
+I, [2016-08-30T13:32:18.699861 #22837]  INFO -- : unlinking existing socket=/home/deploy/professional_webpage/shared/sockets/unicorn.sock
+I, [2016-08-30T13:32:18.700014 #22837]  INFO -- : listening on addr=/home/deploy/professional_webpage/shared/sockets/unicorn.sock fd=12
+I, [2016-08-30T13:32:18.700099 #22837]  INFO -- : worker=0 spawning...
+I, [2016-08-30T13:32:18.701462 #22837]  INFO -- : worker=1 spawning...
+I, [2016-08-30T13:32:18.702181 #22840]  INFO -- : worker=0 spawned pid=22840
+I, [2016-08-30T13:32:18.702360 #22840]  INFO -- : worker=0 ready
+I, [2016-08-30T13:32:18.703441 #22837]  INFO -- : master process ready
+I, [2016-08-30T13:32:18.704122 #22843]  INFO -- : worker=1 spawned pid=22843
+I, [2016-08-30T13:32:18.704326 #22843]  INFO -- : worker=1 ready
+I, [2016-08-30T13:58:28.710397 #22837]  INFO -- : reaped #<Process::Status: pid 22840 exit 0> worker=0
+I, [2016-08-30T13:58:28.710519 #22837]  INFO -- : reaped #<Process::Status: pid 22843 exit 0> worker=1
+I, [2016-08-30T13:58:28.710613 #22837]  INFO -- : master complete
+I, [2016-08-30T14:06:49.845513 #25386]  INFO -- : Refreshing Gem list
+I, [2016-08-30T14:06:51.401696 #25386]  INFO -- : unlinking existing socket=/home/deploy/professional_webpage/shared/sockets/unicorn.sock
+I, [2016-08-30T14:06:51.401846 #25386]  INFO -- : listening on addr=/home/deploy/professional_webpage/shared/sockets/unicorn.sock fd=12
+I, [2016-08-30T14:06:51.401931 #25386]  INFO -- : worker=0 spawning...
+I, [2016-08-30T14:06:51.403270 #25386]  INFO -- : worker=1 spawning...
+I, [2016-08-30T14:06:51.403969 #25389]  INFO -- : worker=0 spawned pid=25389
+I, [2016-08-30T14:06:51.404135 #25389]  INFO -- : worker=0 ready
+I, [2016-08-30T14:06:51.405263 #25386]  INFO -- : master process ready
+I, [2016-08-30T14:06:51.405882 #25392]  INFO -- : worker=1 spawned pid=25392
+I, [2016-08-30T14:06:51.406037 #25392]  INFO -- : worker=1 ready
+I, [2016-08-30T14:22:40.985441 #25386]  INFO -- : reaped #<Process::Status: pid 25389 exit 0> worker=0
+I, [2016-08-30T14:22:40.985552 #25386]  INFO -- : reaped #<Process::Status: pid 25392 exit 0> worker=1
+I, [2016-08-30T14:22:40.985636 #25386]  INFO -- : master complete
+I, [2016-08-30T14:23:07.761827 #25821]  INFO -- : Refreshing Gem list
+I, [2016-08-30T14:23:09.322239 #25821]  INFO -- : unlinking existing socket=/home/deploy/professional_webpage/shared/sockets/unicorn.sock
+I, [2016-08-30T14:23:09.322389 #25821]  INFO -- : listening on addr=/home/deploy/professional_webpage/shared/sockets/unicorn.sock fd=12
+I, [2016-08-30T14:23:09.322477 #25821]  INFO -- : worker=0 spawning...
+I, [2016-08-30T14:23:09.323788 #25821]  INFO -- : worker=1 spawning...
+I, [2016-08-30T14:23:09.324596 #25824]  INFO -- : worker=0 spawned pid=25824
+I, [2016-08-30T14:23:09.324759 #25824]  INFO -- : worker=0 ready
+I, [2016-08-30T14:23:09.326040 #25821]  INFO -- : master process ready
+I, [2016-08-30T14:23:09.326529 #25827]  INFO -- : worker=1 spawned pid=25827
+I, [2016-08-30T14:23:09.326683 #25827]  INFO -- : worker=1 ready
+I, [2016-08-30T15:19:33.837462 #25821]  INFO -- : reaped #<Process::Status: pid 25824 exit 0> worker=0
+I, [2016-08-30T15:19:33.837585 #25821]  INFO -- : reaped #<Process::Status: pid 25827 exit 0> worker=1
+I, [2016-08-30T15:19:33.837672 #25821]  INFO -- : master complete
+I, [2016-08-30T15:19:40.961819 #26901]  INFO -- : Refreshing Gem list
+I, [2016-08-30T15:19:42.529150 #26901]  INFO -- : unlinking existing socket=/home/deploy/professional_webpage/shared/sockets/unicorn.sock
+I, [2016-08-30T15:19:42.529320 #26901]  INFO -- : listening on addr=/home/deploy/professional_webpage/shared/sockets/unicorn.sock fd=12
+I, [2016-08-30T15:19:42.529419 #26901]  INFO -- : worker=0 spawning...
+I, [2016-08-30T15:19:42.530791 #26901]  INFO -- : worker=1 spawning...
+I, [2016-08-30T15:19:42.531477 #26904]  INFO -- : worker=0 spawned pid=26904
+I, [2016-08-30T15:19:42.531656 #26904]  INFO -- : worker=0 ready
+I, [2016-08-30T15:19:42.532793 #26901]  INFO -- : master process ready
+I, [2016-08-30T15:19:42.533273 #26907]  INFO -- : worker=1 spawned pid=26907
+I, [2016-08-30T15:19:42.533500 #26907]  INFO -- : worker=1 ready
+I, [2016-08-30T15:22:17.169454 #26901]  INFO -- : reaped #<Process::Status: pid 26904 exit 0> worker=0
+I, [2016-08-30T15:22:17.169566 #26901]  INFO -- : reaped #<Process::Status: pid 26907 exit 0> worker=1
+I, [2016-08-30T15:22:17.169649 #26901]  INFO -- : master complete
+I, [2016-08-30T15:22:22.133165 #27217]  INFO -- : Refreshing Gem list
+I, [2016-08-30T15:22:23.699504 #27217]  INFO -- : unlinking existing socket=/home/deploy/professional_webpage/shared/sockets/unicorn.sock
+I, [2016-08-30T15:22:23.699654 #27217]  INFO -- : listening on addr=/home/deploy/professional_webpage/shared/sockets/unicorn.sock fd=12
+I, [2016-08-30T15:22:23.699739 #27217]  INFO -- : worker=0 spawning...
+I, [2016-08-30T15:22:23.701142 #27217]  INFO -- : worker=1 spawning...
+I, [2016-08-30T15:22:23.701878 #27220]  INFO -- : worker=0 spawned pid=27220
+I, [2016-08-30T15:22:23.701983 #27220]  INFO -- : worker=0 ready
+I, [2016-08-30T15:22:23.702466 #27217]  INFO -- : master process ready
+I, [2016-08-30T15:22:23.702997 #27223]  INFO -- : worker=1 spawned pid=27223
+I, [2016-08-30T15:22:23.703153 #27223]  INFO -- : worker=1 ready

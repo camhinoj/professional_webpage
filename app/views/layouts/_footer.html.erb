@@ -1,0 +1,36 @@
+<div class="container">
+  <footer class="footer">
+    <div class="col-1-2 first-col">
+      <div class="col-1-3">
+        <div class="copy">
+          &copy; Cameron Hinojos
+        </div>
+      </div><!--
+      --><div class="col-1-3">
+        <nav class="footnav">
+          <ul class="nav">
+            <li><%= link_to "Home",   root_path %></li>
+            <li><%= link_to "About", '/about' %></li>
+            <li><%= link_to "Work", '/work' %></li>
+            <li><%= link_to "Blog", '/blog' %></li>
+            <li><%= link_to "Contact", '/contact' %></li>
+          </ul>
+        </nav>
+      </div><!--
+      --><div class="logoimage col-1-3">
+        <%= image_tag("CameronHinojos.png", size: "32x32", alt: "Logo") %>
+      </div>
+    </div><!--
+    --><div class="col-1-2">
+      <div class="info">
+        <ul>
+          <li>phone: (915)345-8115</li>
+          <li>email: <%= mail_to "cameron.hinojos9@gmail.com" %></li>
+          <li>facebook: <a href="https://www.facebook.com/profile.php?id=100004810232862"><%= image_tag('facebook.png', size: '16x16', alt: 'facebook') %></a></li>
+          <li>github: <a href="https://github.com/camhinoj"><%= image_tag('github.png', size: '16x16', alt: 'github') %></a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/cameron-hinojos-70229b11b"><%= image_tag('linkedin.png', size: '16x16', alt: 'linkedin') %></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
