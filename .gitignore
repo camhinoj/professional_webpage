@@ -19,3 +19,8 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore my pictures and personal files
+/public
+/shared
+/assets
